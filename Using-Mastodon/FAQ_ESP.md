@@ -19,7 +19,7 @@ Estamos utilizando el conjunto de protocolos OStatus:
 4. Salmon para la entrega de ciertos elementos desde los *feeds* de Atom a todos los interesados, como un usuario siendo mencionado, el autor del estatus al que se le está respondiendo, una persona siendo seguida, etc.
 
 #### ¿Qué es mastodon.social?
-Es la instancia (o nodo) “emblemática” de Mastodon, también conocida como el servidor que administro yo mismo ([@Gargron](https://mastodon.social/@Gargron)) con las modificaciones al código más recientes. No se supone que tenga que ser la única instancia al final de cuentas.
+Es la instancia (o nodo) “emblemática” o "buque insignia" de Mastodon, también conocida como el servidor que administro yo mismo ([@Gargron](https://mastodon.social/@Gargron)) con las modificaciones al código más recientes. No se supone que tenga que ser la única instancia al final de cuentas.
 
 #### ¿Qué otras plataformas son parte de la red federada?
 Llamemos a la red federada “fediverso”.  El fediverso ha existido por más tiempo que Mastodon, poblado por servidores de GNU social, Friendica, Hubzilla, Diaspora, etc. No todos estos servidores son completamente compatibles entre ellos. Mastodon hace lo posible por adaptarse a los estándares actuales, por lo mismo, tener compatibilidad con GNU social es de mayor prioridad que tenerla con otras plataformas.
@@ -52,7 +52,7 @@ Para ver un *preview* de lo que sucede en un nodo puedes usar [esta herramienta]
 Claro, sólo sigue a [@mastodonusercount@social.lou.lt](https://social.lou.lt/@mastodonusercount).
 
 #### ¿Cómo puedo acceder a Mastodon en Android?
-Puedes probar [Tusky](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky).
+Puedes probar [Tusky](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky) o [Masty](https://github.com/carlosjs23/Masty).
 
 #### Me gustaría tener soporte para múltiples cuentas en Android.
 Puedes probar [TootyFruity](https://play.google.com/store/apps/details?id=ch.kevinegli.tootyfruity221258).
