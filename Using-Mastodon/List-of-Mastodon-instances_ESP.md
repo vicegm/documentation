@@ -1,6 +1,6 @@
-We are no longer maintaining this list as instances are popping up too quickly for us to track them manually. Please standby while we work on another solution. **In the meantime, there is an updated list at [instances.mastodon.xyz](https://instances.mastodon.xyz) showing realtime information about instances as well as proposing a selection of them.**
+Ya no estamos manteniendo esta lista, puesto que las instancias aparecen demasiado rápido, lo que no permite que podamos seguirlas manualmente. Por el momento se está trabajando en otra solución. **Por el momento hay una lista actualizada en [instances.mastodon.xyz](https://instances.mastodon.xyz) Mostrando información en tiempo real sobre instancias, así como proponiendo una selección de ellas.**
 
-List of Mastodon instances
+Lista de instancias de Mastodon:
 ==========================
 
 | Name | Theme/Notes, if applicable | Open Registrations | IPv6 |
