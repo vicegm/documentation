@@ -1,6 +1,6 @@
 Ya no estamos manteniendo esta lista, puesto que las instancias aparecen demasiado rápido, lo que no permite que podamos seguirlas manualmente. Actualemte se está trabajando en otra solución. 
 
-**Por el momento hay una lista actualizada en [instances.mastodon.xyz](https://instances.mastodon.xyz) Mostrando información en tiempo real sobre instancias, así como proponiendo una selección de ellas.**
+**Por el momento hay una lista actualizada en [instances.mastodon.xyz](https://instances.mastodon.xyz) , la que muestra información en tiempo real sobre instancias, y así proponiendo una selección de ellas.**
 
 Lista de instancias de Mastodon:
 ==========================
