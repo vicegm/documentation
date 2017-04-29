@@ -19,15 +19,15 @@ Estamos utilizando el conjunto de protocolos OStatus:
 4. Salmon para la entrega de ciertos elementos desde los *feeds* de Atom a todos los interesados, como un usuario siendo mencionado, el autor del estatus al que se le está respondiendo, una persona siendo seguida, etc.
 
 #### ¿Qué es mastodon.social?
-Es la instancia (o nodo) “emblemática” de Mastodon, también conocida como el servidor que administro yo mismo ([@Gargron](https://mastodon.social/@Gargron)) con las modificaciones al código más recientes. No se supone que tenga que ser la única instancia al final de cuentas.
+Es la instancia (o nodo) “emblemática” o "Buque Insignia" de Mastodon, también conocida como el servidor que administro yo mismo ([@Gargron](https://mastodon.social/@Gargron)) con las modificaciones al código más recientes. No se supone que tenga que ser la única instancia al final de cuentas.
 
 #### ¿Qué otras plataformas son parte de la red federada?
-Llamemos a la red federada “fediverso”.  El fediverso ha existido por más tiempo que Mastodon, poblado por servidores de GNU social, Friendica, Hubzilla, Diaspora, etc. No todos estos servidores son completamente compatibles entre ellos. Mastodon hace lo posible por adaptarse a los estándares actuales, por lo mismo, tener compatibilidad con GNU social es de mayor prioridad que tenerla con otras plataformas.
+Llamemos a la red federada “fediverso”.  El fediverso ha existido por más tiempo que Mastodon, poblado por servidores de GNU social, Friendica, Hubzilla, Diaspora, etc. No todos estos servidores son completamente compatibles entre ellos. Mastodon hace lo posible por adaptarse a los estándares actuales, por lo mismo, tener compatibilidad con GNU social actualmente es la que tiene mayor prioridad, que otras plataformas.
 
 #### Intenté iniciar sesión en Mastodon con una app cliente para GNU social, pero no funcionó, ¿por qué?
 Si bien Mastodon es compatible con GNU social en términos de comunicación de servidor a servidor, no sucede lo mismo con la comunicación de cliente a servidor API (o el cómo accedes a Mastodon). Por lo tanto, las apps que fueron hechas específicamente para GNU social no van a funcionar con Mastodon. La razón de esto es por una parte técnica y por la otra ideológica.
 
-Como Mastodon ha sido creado en blanco, es mucho más simple hacer que la API refleje las estructuras internas de la manera más fiel posible, en lugar de crear una capa que las emule. Por otra parte, la API cliente de GNU social es de hecho una implementación a medias de la API de legado (*legacy*) de Twitter –esta es la razón por la que funciona con algunos clientes viejos para Twitter–. Sin embargo, muchas de estas apps dejaron de ser mantenidas, la API de GNU social no se mantuvo a la par de la API real de Twitter y nunca implementó todas sus características; al mismo tiempo, la API de Twitter nunca fue pensada para un servicio federado y por lo tanto obscurece una parte de su funcionalidad.
+Como Mastodon ha sido creado desde cero, es mucho más simple hacer que la API refleje las estructuras internas de la manera más fiel posible, en lugar de crear una capa que las emule. Por otra parte, la API cliente de GNU social es de hecho una implementación a medias de la API de legado (*legacy*) de Twitter –esta es la razón por la que funciona con algunos clientes viejos para Twitter–. Sin embargo, muchas de estas apps dejaron de ser mantenidas, la API de GNU social no se mantuvo a la par de la API real de Twitter y nunca implementó todas sus características; al mismo tiempo, la API de Twitter nunca fue pensada para un servicio federado y por lo tanto obscurece una parte de su funcionalidad.
 
 #### ¿Cómo se financia Mastodon?
 El desarrollo de Mastodon y el alojamiento web de mastodon.social es financiado por medio de mi [Patreon (y a través de donaciones en BTC/PayPal)](https://www.patreon.com/user?u=619786). ). Más allá de lo anterior, no estoy interesado en financiamiento de capital de riesgo (*VC funding*), monetización, dinero a través de anunciantes, ni nada parecido.  En todo caso puedo ofrecer servicios de instalación/mantenimiento sobre demanda.
@@ -44,7 +44,7 @@ Es un grupo de servidores de Mastodon que comparten toots entre ellos.
 Es un servidor en el que puedes tener una cuenta. Cada instancia tiene sus propias políticas y reglas, ¡porque pueden ser administradas por cualquiera!
 
 #### ¿Cómo elijo qué instancia o nodo usar?
-[Existen muchas instancias](https://instances.mastodon.xyz/list) para  casi cualquier interés. Está bien si quieres probar un par de nodos públicos mientras encuentras algún otro que te agrade. Comentar tus intereses en una instancia pública, como [mastodon.social](https://mastodon.social) puede ayudar a que te inviten a otras instancias más específicas.
+[Existen muchas instancias](https://instances.mastodon.xyz/list) para  casi cualquier interés o fin. Está bien si quieres probar un par de nodos públicos mientras encuentras algún otro que te agrade. Comentar tus intereses en una instancia pública, como [mastodon.social](https://mastodon.social) puede ayudar a que te inviten a otras instancias más específicas.
 
 Para ver un *preview* de lo que sucede en un nodo puedes usar [esta herramienta](http://www.unmung.com/mastoview?url=mastodon.social&view=local) creada por [Kevin Marks](https://mastodon.social/@kevinmarks).
 
@@ -53,6 +53,7 @@ Claro, sólo sigue a [@mastodonusercount@social.lou.lt](https://social.lou.lt/@m
 
 #### ¿Cómo puedo acceder a Mastodon en Android?
 Puedes probar [Tusky](https://play.google.com/store/apps/details?id=com.keylesspalace.tusky).
+Tambien puedes probar [Masty](https://github.com/carlosjs23/Masty/releases), un fork de Tusky.
 
 #### Me gustaría tener soporte para múltiples cuentas en Android.
 Puedes probar [TootyFruity](https://play.google.com/store/apps/details?id=ch.kevinegli.tootyfruity221258).
@@ -89,7 +90,7 @@ Algunos nodos son privados y por lo tanto no estarán federados con el tuyo. U o
 Sí. Esto puede tomar tiempo dependiendo del nodo al que te estés mudando. Habla con quien administre tu nuevo nodo si tienes dificultades. Si tu nuevo nodo no está federado con los nodos a los que pertenecen estas cuentas, posiblemente las pierdas.
 
 #### ¿Cómo evito que alguien se haga pasar por mí en Mastodon?
-Puesto que cualquiera puede crear cualquier nombre de usuario en cualquier nodo o instancia, siempre que no haya sido registrado antes, es imposible prevenir que otras personas usen el mismo nombre de usuario en diferentes instancias. Alguna gente se ha tomado el trabajo de instalar y mantener sus propias instancias personales de un solo usuario como forma de verificación, o usa [Keybase](https://keybase.io/).
+Puesto que cualquiera puede crear cualquier nombre de usuario en cualquier nodo o instancia, siempre que no haya sido registrado antes, es imposible prevenir que otras personas usen el mismo nombre de usuario en diferentes instancias. Alguna gente se ha tomado el trabajo de instalar y mantener sus propias instancias personales de un solo usuario como forma de verificación, o usa el servicio de [Keybase](https://keybase.io/).
 
 #### ¿Cómo activo la Autenticación en Dos Pasos (**“Autenticación de dos factores”** en la página)?
 Si el nodo en el que estás tiene soporte para hacerlo, la opción estará en **Preferencias** (*Preferences*) > **Autenticación de Dos Factores** (*Two-factor Authentication*). La [Autenticación de Dos Factores de Mastodon](2FA.md) (liga en inglés) usa tanto código QR como llaves en texto no enriquecido.
