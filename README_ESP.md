@@ -1,9 +1,9 @@
 # Documentación de Mastodon
 
-**Mastodon** is a free, open-source GNU social-compatible social network server. A decentralized alternative to commercial platforms, it avoids the risks of a single company monopolizing your communication. Anyone can run Mastodon and participate in the social network seamlessly.
+**Mastodon** Es un servidor y  red sociales libre y de código abierto compatible con GNU social. Es una alternativa descentralizada a las plataformas comerciales, evitando los riesgos de que una sola compañía monopolice la comunicación entre usuarios. Cualquiera puede iniciar una instancia de Mastodon y participar en la red social sin problemas.
 
-### [Using Mastodon](Using-Mastodon)
-- [Frequently Asked Questions](Using-Mastodon/FAQ.md)
+### [Usando Mastodon](Using-Mastodon)
+- [Frequently Asked Questions](Using-Mastodon/FAQ_ESP.md)
 - [List of Mastodon instances](Using-Mastodon/List-of-Mastodon-instances.md)
 - [Apps](Using-Mastodon/Apps.md)
 - [User Guide](Using-Mastodon/User-guide.md)
