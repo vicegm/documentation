@@ -4,9 +4,9 @@
 
 ### [Usando Mastodon](Using-Mastodon)
 - [Preguntas Frecuentes](Using-Mastodon/FAQ_ESP.md)
-- [Lista de instancias de Mastodon](Using-Mastodon/List-of-Mastodon-instances.md)
-- [Apps](Using-Mastodon/Apps.md)
-- [Guía de usuario](Using-Mastodon/User-guide.md)
+- [Lista de instancias de Mastodon](Using-Mastodon/List-of-Mastodon-instances_ESP.md)
+- [Apps](Using-Mastodon/Apps_ESP.md)
+- [Guía de usuario](Using-Mastodon/User-guide_ESP.md)
 
 ### [Usando la API](Using-the-API)
 - [Documnetación de la API](Using-the-API/API.md)
