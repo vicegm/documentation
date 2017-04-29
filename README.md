@@ -4,19 +4,19 @@
 
 ### [Usando Mastodon](Using-Mastodon)
 - [Preguntas Frecuentes](Using-Mastodon/FAQ_ESP.md)
-- [List of Mastodon instances](Using-Mastodon/List-of-Mastodon-instances.md)
+- [Lista de instancias de Mastodon](Using-Mastodon/List-of-Mastodon-instances.md)
 - [Apps](Using-Mastodon/Apps.md)
-- [User Guide](Using-Mastodon/User-guide.md)
+- [Guía de usuario](Using-Mastodon/User-guide.md)
 
-### [Using the API](Using-the-API)
-- [API documentation](Using-the-API/API.md)
+### [Usando la API](Using-the-API)
+- [Documnetación de la API](Using-the-API/API.md)
 - [Streaming API documentation](Using-the-API/Streaming-API.md)
 - [Testing the API with cURL](Using-the-API/Testing-with-cURL.md)
 - [OAuth details](Using-the-API/OAuth-details.md)
 - [Tips for app developers](Using-the-API/Tips-for-app-developers.md)
 - [Push notifications](Using-the-API/Push-notifications.md)
 
-### [Running Mastodon](Running-Mastodon)
+### [Ejecutar Mastodon](Running-Mastodon)
 - [Resources needed](Running-Mastodon/Resources-needed.md)
 - [Production guide](Running-Mastodon/Production-guide.md)
 - [Docker guide](Running-Mastodon/Docker-Guide.md)
@@ -28,12 +28,12 @@
 - [Tuning Mastodon](Running-Mastodon/Tuning.md)
 - [System Configuration Alternatives](Running-Mastodon/Alternatives.md)
 
-### [Contributing to Mastodon](Contributing-to-Mastodon)
+### [Contribuir a Mastodon](Contributing-to-Mastodon)
 - [Sponsors](Contributing-to-Mastodon/Sponsors.md)
 - [Translate Mastodon in your language](Contributing-to-Mastodon/Translating.md)
 - [Report bugs and submit ideas](https://github.com/tootsuite/mastodon/issues)
 
-### Protocols
+### Protocolos
 
 - [List of used specs and RFCs for the federation](Specs-and-RFCs-used.md)
 - [Extensions of the above protocols](Extensions.md)
